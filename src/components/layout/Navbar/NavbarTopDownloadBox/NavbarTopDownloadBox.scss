@@ -1,0 +1,20 @@
+.box {
+  .container & {
+    position: relative;
+    width: 185px;
+  }
+  left: 206px;
+  top: -200px;
+  position: absolute;
+  background-color: lightblue;
+  height: 180px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.523);
+  p {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}

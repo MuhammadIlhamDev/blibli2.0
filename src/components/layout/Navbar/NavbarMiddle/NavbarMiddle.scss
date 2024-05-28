@@ -1,0 +1,171 @@
+.navbar-middle {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  @media screen and (min-width: 1023px) {
+    // display: none;
+    max-width: 1200px;
+    width: 96%;
+    padding: 0;
+    margin: 12px auto 0;
+  }
+  .category__trigger {
+    background-color: #f1f2f2;
+    display: flex;
+    align-items: center;
+    color: #797f85;
+    margin: 2px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 5px;
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+    .category__trigger__name {
+      font-size: 14px;
+      color: #19222a;
+    }
+  }
+
+  .navbar-camera {
+    color: #797f85;
+    margin-left: 10px;
+    @media screen and (min-width: 360px) {
+      font-size: 0.8em;
+      margin: 10px;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 0.8em;
+    }
+    @media screen and (min-width: 1023px) {
+      display: none;
+    }
+  }
+
+  .logo-blibli-navbar-middle {
+    margin-left: 10px;
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+  }
+
+  .navbar-input-search {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+
+    .navbar-search {
+      position: absolute;
+      right: -12px;
+      background-color: #0072ff;
+      color: white;
+      border-radius: 50%;
+      padding: 5px;
+      top: 3px;
+    }
+
+    .navbar-input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid rgba(128, 128, 128, 0.523);
+      &:focus {
+        outline: none;
+      }
+    }
+    .navbar-bottom-link {
+      .navbar-bottom-link-list {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 10px;
+        .navbar-bottom-link-item {
+          list-style: none;
+        }
+        .navbar-bottom-link-item a {
+          color: #19222ab3;
+          text-decoration: none;
+          font-size: 13px;
+          font-weight: 500;
+          border-right: 1px solid rgba(128, 128, 128, 0.523);
+          padding-right: 10px;
+          padding-left: 10px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      @media screen and (max-width: 1023px) {
+        display: none;
+      }
+    }
+  }
+
+  .navbar-login-mobile {
+    display: flex;
+    align-items: center;
+    background-color: #0072ff;
+    color: white;
+    border-radius: 50px;
+    margin-left: 23px;
+    padding: 5px;
+    gap: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.523);
+    &:focus {
+      outline: none;
+    }
+    @media screen and (min-width: 1023px) {
+      display: none;
+    }
+  }
+  // navbar-login-desktop
+  .navbar-login-desktop {
+    padding: 0 0 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .navbar-cart-desktop {
+      cursor: pointer;
+      color: #797f85;
+      margin: 0 0 0 30px;
+    }
+
+    .separator {
+      border-right: #c8cbcd 1px solid;
+      height: 24px;
+      margin: 8px 8px 0;
+    }
+
+    .navbar-login {
+      background-color: white;
+      color: #0072ff;
+      border-radius: 50px;
+      padding: 6px 18px;
+      border: 2px solid #0072ff;
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .navbar-register {
+      background-color: #0072ff;
+      color: white;
+      border-radius: 50px;
+      padding: 7px 18px;
+      cursor: pointer;
+      border: 1px solid rgba(128, 128, 128, 0.523);
+      &:focus {
+        outline: none;
+      }
+    }
+
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+  }
+}

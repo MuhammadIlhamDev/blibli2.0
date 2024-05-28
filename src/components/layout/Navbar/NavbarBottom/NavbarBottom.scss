@@ -1,0 +1,26 @@
+.navbar-bottom-address {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  .navbar-bottom-address-container {
+    @media screen and (min-width: 1023px) {
+      display: none;
+    }
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    @media screen and (max-width: 769px) {
+      margin-left: 12px;
+    }
+    .navbar-bottom-address-text {
+      font-size: 0.8em;
+    }
+  }
+
+  .navbar-bottom-address-icon {
+    color: #797f85;
+  }
+  .navbar-bottom-dropdown-icon {
+    color: #797f85;
+  }
+}

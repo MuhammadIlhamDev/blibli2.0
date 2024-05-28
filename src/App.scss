@@ -1,0 +1,8 @@
+.navbarM-navbarB {
+  @media screen and (min-width: 769px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1023px) {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+  }
+}
