@@ -1,0 +1,17 @@
+.category__trigger {
+    background-color: #f1f2f2;
+    display: flex;
+    align-items: center;
+    color: #797f85;
+    margin: 2px;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 5px;
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+    .category__trigger__name {
+      font-size: 14px;
+      color: #19222a;
+    }
+  }

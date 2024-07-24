@@ -1,12 +1,12 @@
 .box {
   .container & {
     position: relative;
-    width: 185px;
+    background-color: white;
   }
-  left: 206px;
-  top: -200px;
+  left: 0;
+  top: 100%;
+  z-index: 2;
   position: absolute;
-  background-color: lightblue;
   height: 180px;
   text-align: center;
   justify-content: center;
@@ -15,6 +15,7 @@
   border: 1px solid rgba(128, 128, 128, 0.523);
   p {
     font-weight: 500;
-    margin-bottom: 10px;
+    color: #19222a;
+    font-size: 16px;
   }
 }

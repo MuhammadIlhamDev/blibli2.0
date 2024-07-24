@@ -1,6 +1,7 @@
 import "./NavbarTop.scss";
 import { RiCustomerService2Fill } from "react-icons/ri";
 import { FaCloudDownloadAlt } from "react-icons/fa";
+import NavbarTopDownloadBox from "../NavbarTopDownloadBox/NavbarTopDownloadBox";
 
 function NavbarTop() {
   return (
@@ -9,9 +10,14 @@ function NavbarTop() {
         <div className="navbar-top">
           <div className="navbar-top-left">
             <FaCloudDownloadAlt size={"1.1em"} />
-            <p> Download Aplikasi Blibli</p>
+            <div className="hover-container">
+              <div className="hover-text"><span>Download Aplikasi Blibli</span></div>
+              <div className="hover-content">
+                <NavbarTopDownloadBox />
+              </div>
+            </div>
             <RiCustomerService2Fill size={"1.1em"} />
-            <p> Bantuan 24/7</p>
+            <span> Bantuan 24/7</span>
           </div>
           <div className="navbar-top-right">
             <a href="#">Jual di Blibli</a>
